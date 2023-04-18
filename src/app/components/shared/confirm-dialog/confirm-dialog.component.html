@@ -1,0 +1,22 @@
+<h2 mat-dialog-title>Detalles</h2>
+<form >
+  
+<div mat-dialog-content >
+  
+  <mat-form-field class="mat-typography form-control" >
+    <textarea matInput placeholder="Ingrese comentarios"  class="txtComm" name="txtComm" id="txtComm"></textarea>
+  </mat-form-field>
+</div>
+
+<div><br>
+    <mat-radio-group aria-label="Select an option" >
+        <mat-radio-button value="Finalizada" (click)="onClick('Finalizada')">Finalizada</mat-radio-button>&nbsp;
+        <mat-radio-button value="Cancelada" (click)="onClick('Cancelada')">Cancelada</mat-radio-button>
+      </mat-radio-group>
+</div>
+
+<div mat-dialog-actions>
+    <button mat-button  cdkFocusInitial type="button" (click)="guardar()">Guardar</button>
+    <button mat-button  [mat-dialog-close] >Cerrar</button>
+  </div>
+</form>

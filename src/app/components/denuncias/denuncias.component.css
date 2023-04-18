@@ -1,0 +1,43 @@
+
+
+.title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* Structure */
+table {
+    width: 95%;
+    position: relative;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .divtable{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    position: relative;
+  }
+
+  .filter{
+    align-items: center;
+    justify-content: left ;
+    display: flex;
+    height: 100%;
+    position: relative;
+    left: 62px;
+    display: none;
+  }
+  .backgroung{
+    background-color: rgb(219, 216, 210);
+    height: 100%;
+  }
+  .button{
+    vertical-align: baseline;
+ }
